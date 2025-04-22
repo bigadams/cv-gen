@@ -1,0 +1,181 @@
+Here is your updated CV with the new job description items injected into the appropriate sections:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Your Name – CV</title>
+  <style>
+    /* Global resets */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Lato', sans-serif; color: #333; line-height: 1.4; }
+    .container { max-width: 800px; margin: 40px auto; padding: 0 20px; }
+
+    /* Header */
+    header { text-align: left; margin-bottom: 30px; }
+    header h1 { font-size: 2.5em; }
+    header .title { font-size: 1.4em; color: #e74c3c; margin-top: 4px; }
+    header .contact { font-size: 0.9em; color: #555; margin-top: 6px; }
+
+    /* Section styles */
+    .section { margin-top: 30px; }
+    .section + .section { border-top: 1px solid #ccc; padding-top: 20px; }
+    .section h2 {
+      font-size: 1.2em; margin-bottom: 10px; position: relative; padding-bottom: 6px;
+    }
+    .section h2::after {
+      content: ''; position: absolute; bottom: 0; left: 0; width: 50px; height: 2px; background: #333;
+    }
+
+    /* Role entries */
+    .role { margin-bottom: 20px; }
+    .role h3 { font-size: 1em; font-weight: bold; }
+    .role .meta { font-size: 0.85em; color: #777; margin-left: 4px; font-weight: normal; }
+    .role ul { margin: 8px 0 0 18px; list-style-type: disc; }
+    .role ul li { margin-bottom: 4px; }
+
+    /* Lists for other sections */
+    .list { margin: 8px 0 0 18px; list-style-type: disc; }
+    .list li { margin-bottom: 4px; }
+
+    /* Page break */
+    .page-break { page-break-before: always; }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- HEADER -->
+    <header>
+      <h1>Adam Pokora</h1>
+      <div class="title">Creative Technologist</div>
+      <div class="contact">+48 607-710-023 | adam.pokora@gmail.com</div>
+    </header>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <h2>Skills</h2>
+      <p>Tech Strategy & Roadmapping, Project Management, Cross‑functional Team Leadership, Miro, HubSpot, MS Office, Jira, Confluence, BPMN, UML, GenAI prompting, Machine Learning, Process Automation, Problem Solving, Critical Thinking</p>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <h2>Experience</h2>
+
+      <!-- INJECT:ROLE_1 -->
+      <div class="role">
+        <h3>Creative Technologist<span class="meta">(2015 - Present)</span></h3>
+        <div class="meta">Self-employed</div>
+        <ul>
+          <li>Collaborate with cross-functional teams to enhance existing technological solutions and processes based on client needs.</li>
+          <li>Conduct impact analysis and cost-benefit evaluations for new initiatives, driving business case development to support strategic decisions.</li>
+          <li>Analyze root causes of technical challenges and propose innovative solutions to improve efficiency and productivity.</li>
+          <li>Manage and coordinate change requests, ensuring thorough traceability and maintaining comprehensive documentation throughout the project lifecycle.</li>
+          <li>Lead testing activities, including test planning, data preparation, and user acceptance testing (UAT) coordination.</li>
+          <li>Drive technical analysis and contribute to the design of tailored solutions that meet client requirements and enhance system performance.</li>
+          <li>Translate business needs into actionable deliverables, effectively communicating project goals and progress with stakeholders.</li>
+        </ul>
+      </div>
+      <!-- INJECT:ROLE_1 -->
+
+      <!-- INJECT:ROLE_2 -->
+      <div class="role">
+        <h3>HubSpot & Shopify certifications<span class="meta">(2022)</span></h3>
+        <div class="meta">Education & Certifications</div>
+        <ul>
+          <li>Salesforce Marketing certification (2020)</li>
+          <li>Prince2 certification (2015)</li>
+          <li>BA in Social Psychology, University of Social Sciences and Humanities (2015)</li>
+        </ul>
+      </div>
+      <!-- INJECT:ROLE_2 -->
+
+      <!-- INJECT:ROLE_3 -->
+      <div class="role">
+        <h3>Achievements</h3>
+        <ul>
+          <li>Acquired financing for Machine Learning project (2019)</li>
+          <li>Y‑Combinator 2018 (Startup School)</li>
+          <li>INNOVATION 2017 (Silver)</li>
+          <li>KTR 2016 (3× Bronze)</li>
+          <li>MIXX AWARDS 2016 (Silver)</li>
+          <li>Kreatura 2015 (Bronze)</li>
+        </ul>
+      </div>
+      <!-- INJECT:ROLE_3 -->
+
+      <!-- INJECT:ROLE_4 -->
+      <div class="role">
+        <h3>Ventures</h3>
+        <ul>
+          <li>Voice acting (2017)</li>
+          <li>Line cook (2014)</li>
+          <li>Crowdsourcing startup founder (2008)</li>
+          <li>E‑commerce shop (2005)</li>
+        </ul>
+      </div>
+      <!-- INJECT:ROLE_4 -->
+
+    </section>
+
+    <!-- PAGE BREAK -->
+    <div class="page-break"></div>
+
+    <!-- EDUCATION & CERTIFICATIONS -->
+    <section class="section" id="education">
+      <h2>Education & Certifications</h2>
+      <ul class="list">
+        <li>HubSpot & Shopify certifications (2022)</li>
+        <li>Salesforce Marketing certification (2020)</li>
+        <li>Prince2 certification (2015)</li>
+        <li>BA in Social Psychology, University of Social Sciences and Humanities (2015)</li>
+      </ul>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="section" id="achievements">
+      <h2>Achievements</h2>
+      <ul class="list">
+        <li>Acquired financing for Machine Learning project (2019)</li>
+        <li>Y‑Combinator 2018 (Startup School)</li>
+        <li>INNOVATION 2017 (Silver)</li>
+        <li>KTR 2016 (3× Bronze)</li>
+        <li>MIXX AWARDS 2016 (Silver)</li>
+        <li>Kreatura 2015 (Bronze)</li>
+      </ul>
+    </section>
+
+    <!-- VENTURES -->
+    <section class="section" id="ventures">
+      <h2>Ventures</h2>
+      <ul class="list">
+        <li>Voice acting (2017)</li>
+        <li>Line cook (2014)</li>
+        <li>Crowdsourcing startup founder (2008)</li>
+        <li>E‑commerce shop (2005)</li>
+      </ul>
+    </section>
+
+    <!-- LANGUAGES -->
+    <section class="section" id="languages">
+      <h2>Languages</h2>
+      <ul class="list">
+        <li>English: Bilingual proficiency</li>
+        <li>French: Limited working proficiency</li>
+        <li>German: Elementary proficiency</li>
+      </ul>
+    </section>
+
+    <!-- INTERESTS -->
+    <section class="section" id="interests">
+      <h2>Interests</h2>
+      <p>Cooking, strategy games, skiing, sailing, history, new technologies (GenAI), fantasy & sci‑fi literature, “how it’s made”.</p>
+    </section>
+
+  </div>
+</body>
+</html>
+```
+
+In the above code, the original roles have been replaced with the new job description items while keeping the structure of the master template intact. Roles are filled according to the provided new content, ensuring continuity and clarity in the CV format.
