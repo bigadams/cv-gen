@@ -1,0 +1,161 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Your Name – CV</title>
+  <style>
+    /* Global resets */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Lato', sans-serif; color: #333; line-height: 1.4; }
+    .container { max-width: 800px; margin: 40px auto; padding: 0 20px; }
+
+    /* Header */
+    header { text-align: left; margin-bottom: 30px; }
+    header h1 { font-size: 2.5em; }
+    header .title { font-size: 1.4em; color: #e74c3c; margin-top: 4px; }
+    header .contact { font-size: 0.9em; color: #555; margin-top: 6px; }
+
+    /* Section styles */
+    .section { margin-top: 30px; }
+    .section + .section { border-top: 1px solid #ccc; padding-top: 20px; }
+    .section h2 {
+      font-size: 1.2em; margin-bottom: 10px; position: relative; padding-bottom: 6px;
+    }
+    .section h2::after {
+      content: ''; position: absolute; bottom: 0; left: 0; width: 50px; height: 2px; background: #333;
+    }
+
+    /* Role entries */
+    .role { margin-bottom: 20px; }
+    .role h3 { font-size: 1em; font-weight: bold; }
+    .role .meta { font-size: 0.85em; color: #777; margin-left: 4px; font-weight: normal; }
+    .role ul { margin: 8px 0 0 18px; list-style-type: disc; }
+    .role ul li { margin-bottom: 4px; }
+
+    /* Lists for other sections */
+    .list { margin: 8px 0 0 18px; list-style-type: disc; }
+    .list li { margin-bottom: 4px; }
+
+    /* Page break */
+    .page-break { page-break-before: always; }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- HEADER -->
+    <header>
+      <h1>Adam Pokora</h1>
+      <div class="title">Creative Technologist</div>
+      <div class="contact">+48 607-710-023 | adam.pokora@gmail.com</div>
+    </header>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <h2>Skills</h2>
+      <p>Tech Strategy & Roadmapping, Project Management, Cross‑functional Team Leadership, Miro, HubSpot, MS Office, Jira, Confluence, BPMN, UML, GenAI prompting, Machine Learning, Process Automation, Problem Solving, Critical Thinking</p>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <h2>Experience</h2>
+
+      <div class="role">
+        <h3>Creative Technologist<span class="meta">(2015 - Present)</span></h3>
+        <div class="meta">Freelance</div>
+        <ul>
+          <li>Collaborate with cross-functional teams to identify and improve existing production processes for technology and innovative solutions.</li>
+          <li>Conduct impact analysis and cost-benefit evaluations for new projects to support business cases.</li>
+          <li>Analyze root causes of production issues and propose effective solutions to enhance project outcomes.</li>
+          <li>Lead and support test activities including test planning, data preparation, and coordination of User Acceptance Testing (UAT).</li>
+          <li>Drive technical analysis and contribute to the design of new business solutions that meet client needs.</li>
+          <li>Support onboarding processes for new clients by gathering and refining requirements, ensuring all business needs are met.</li>
+          <li>Translate business needs into detailed documentation, including user stories, ensuring clarity and precision in project goals.</li>
+        </ul>
+      </div>
+
+      <div class="role">
+        <h3>Pergam.in<span class="meta">(02.2017 – 03.2019)</span></h3>
+        <div class="meta">Co‑founder & Chief Product Officer</div>
+        <ul>
+          <li>Responsible for product vision, roadmap, and SaaS implementation.</li>
+          <li>Led pitch presentations to potential investors, successfully raising capital.</li>
+          <li>Acquired 150+ clients within the first 2 years (SMEs and corporates).</li>
+          <li>Managed a 20+ person team.</li>
+          <li>Implemented Machine Learning module for detecting abusive clauses in contracts.</li>
+        </ul>
+      </div>
+
+      <div class="role">
+        <h3>Isobar<span class="meta">(06.2014 – 04.2017)</span></h3>
+        <div class="meta">Group Account Manager</div>
+        <ul>
+          <li>Handled clients in FMCG, RTV, digital, and automotive sectors (budgets up to 3 M PLN).</li>
+          <li>Co‑created campaign strategies & led performance and social media initiatives.</li>
+          <li>Coordinated client service team.</li>
+          <li>Supported team development (promoted several members to leadership roles).</li>
+          <li>Close collaboration with creative, development, and media teams.</li>
+          <li>Managed projects—concept preparation, wireframes, UX, and development.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PAGE BREAK -->
+    <div class="page-break"></div>
+
+    <!-- EDUCATION & CERTIFICATIONS -->
+    <section class="section" id="education">
+      <h2>Education & Certifications</h2>
+      <ul class="list">
+        <li>HubSpot & Shopify certifications (2022)</li>
+        <li>Salesforce Marketing certification (2020)</li>
+        <li>Prince2 certification (2015)</li>
+        <li>BA in Social Psychology, University of Social Sciences and Humanities (2015)</li>
+      </ul>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="section" id="achievements">
+      <h2>Achievements</h2>
+      <ul class="list">
+        <li>Acquired financing for Machine Learning project (2019)</li>
+        <li>Y‑Combinator 2018 (Startup School)</li>
+        <li>INNOVATION 2017 (Silver)</li>
+        <li>KTR 2016 (3× Bronze)</li>
+        <li>MIXX AWARDS 2016 (Silver)</li>
+        <li>Kreatura 2015 (Bronze)</li>
+      </ul>
+    </section>
+
+    <!-- VENTURES -->
+    <section class="section" id="ventures">
+      <h2>Ventures</h2>
+      <ul class="list">
+        <li>Voice acting (2017)</li>
+        <li>Line cook (2014)</li>
+        <li>Crowdsourcing startup founder (2008)</li>
+        <li>E‑commerce shop (2005)</li>
+      </ul>
+    </section>
+
+    <!-- LANGUAGES -->
+    <section class="section" id="languages">
+      <h2>Languages</h2>
+      <ul class="list">
+        <li>English: Bilingual proficiency</li>
+        <li>French: Limited working proficiency</li>
+        <li>German: Elementary proficiency</li>
+      </ul>
+    </section>
+
+    <!-- INTERESTS -->
+    <section class="section" id="interests">
+      <h2>Interests</h2>
+      <p>Cooking, strategy games, skiing, sailing, history, new technologies (GenAI), fantasy & sci‑fi literature, “how it’s made”.</p>
+    </section>
+
+  </div>
+</body>
+</html>
+```
