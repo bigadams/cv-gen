@@ -1,0 +1,186 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Your Name – CV</title>
+  <style>
+    /* Global resets */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Lato', sans-serif; color: #333; line-height: 1.4; }
+    .container { max-width: 800px; margin: 40px auto; padding: 0 20px; }
+
+    /* Header */
+    header { text-align: left; margin-bottom: 30px; }
+    header h1 { font-size: 2.5em; }
+    header .title { font-size: 1.4em; color: #e74c3c; margin-top: 4px; }
+    header .contact { font-size: 0.9em; color: #555; margin-top: 6px; }
+
+    /* Section styles */
+    .section { margin-top: 30px; }
+    .section + .section { border-top: 1px solid #ccc; padding-top: 20px; }
+    .section h2 {
+      font-size: 1.2em; margin-bottom: 10px; position: relative; padding-bottom: 6px;
+    }
+    .section h2::after {
+      content: ''; position: absolute; bottom: 0; left: 0; width: 50px; height: 2px; background: #333;
+    }
+
+    /* Role entries */
+    .role { margin-bottom: 20px; }
+    .role h3 { font-size: 1em; font-weight: bold; }
+    .role .meta { font-size: 0.85em; color: #777; margin-left: 4px; font-weight: normal; }
+    .role ul { margin: 8px 0 0 18px; list-style-type: disc; }
+    .role ul li { margin-bottom: 4px; }
+
+    /* Lists for other sections */
+    .list { margin: 8px 0 0 18px; list-style-type: disc; }
+    .list li { margin-bottom: 4px; }
+
+    /* Page break */
+    .page-break { page-break-before: always; }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- HEADER -->
+    <header>
+      <h1>Adam Pokora</h1>
+      <div class="title">Creative Technologist</div>
+      <div class="contact">+48 607-710-023 | adam.pokora@gmail.com</div>
+    </header>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <h2>Skills</h2>
+      <p>Tech Strategy & Roadmapping, Project Management, Cross‑functional Team Leadership, Miro, HubSpot, MS Office, Jira, Confluence, BPMN, UML, GenAI prompting, Machine Learning, Process Automation, Problem Solving, Critical Thinking</p>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <h2>Experience</h2>
+      
+      <div class="role">
+        <h3>Creative Technologist<span class="meta">(2017 - Present)</span></h3>
+        <div class="meta">Freelance</div>
+        <ul>
+          <li>Collaborate with clients to enhance business processes and streamline technology integration through effective strategy and roadmapping.</li>
+          <li>Conduct detailed analysis for project initiatives, including cost-benefit evaluations and benefits realization, ensuring alignment with client objectives.</li>
+          <li>Develop and maintain documentation for project processes and requirements using BPMN and UML methodologies, enabling clear communication between technical and non-technical stakeholders.</li>
+          <li>Manage cross-functional teams to translate business needs into actionable solutions, creating user stories and defining project scope.</li>
+          <li>Drive technical analysis and oversight of project implementation, ensuring deliverables meet defined specifications and stakeholder expectations.</li>
+          <li>Support stakeholder engagement through effective communication, providing regular updates on project status and adjustments needed.</li>
+          <li>Lead user acceptance testing (UAT) processes, ensuring solutions are delivered with high quality and meet user requirements.</li>
+        </ul>
+      </div>
+
+      <div class="role">
+        <h3>HubSpot & Shopify certifications<span class="meta">(2022)</span></h3>
+      </div>
+      <div class="role">
+        <h3>Salesforce Marketing certification<span class="meta">(2020)</span></h3>
+      </div>
+      <div class="role">
+        <h3>Prince2 certification<span class="meta">(2015)</span></h3>
+      </div>
+      <div class="role">
+        <h3>BA in Social Psychology, University of Social Sciences and Humanities<span class="meta">(2015)</span></h3>
+      </div>
+
+      <div class="role">
+        <h3>Achievements<span class="meta"></span></h3>
+        <ul>
+          <li>Acquired financing for Machine Learning project (2019)</li>
+          <li>Y‑Combinator 2018 (Startup School)</li>
+          <li>INNOVATION 2017 (Silver)</li>
+          <li>KTR 2016 (3× Bronze)</li>
+          <li>MIXX AWARDS 2016 (Silver)</li>
+          <li>Kreatura 2015 (Bronze)</li>
+        </ul>
+      </div>
+
+      <div class="role">
+        <h3>Ventures<span class="meta"></span></h3>
+        <ul>
+          <li>Voice acting (2017)</li>
+          <li>Line cook (2014)</li>
+          <li>Crowdsourcing startup founder (2008)</li>
+          <li>E‑commerce shop (2005)</li>
+        </ul>
+      </div>
+
+      <div class="role">
+        <h3>Languages<span class="meta"></span></h3>
+        <ul>
+          <li>English: Bilingual proficiency</li>
+          <li>French: Limited working proficiency</li>
+          <li>German: Elementary proficiency</li>
+        </ul>
+      </div>
+
+      <div class="role">
+        <h3>Interests<span class="meta"></span></h3>
+        <p>Cooking, strategy games, skiing, sailing, history, new technologies (GenAI), fantasy & sci‑fi literature, “how it’s made”.</p>
+      </div>
+
+    </section>
+
+    <!-- PAGE BREAK -->
+    <div class="page-break"></div>
+
+    <!-- EDUCATION & CERTIFICATIONS -->
+    <section class="section" id="education">
+      <h2>Education & Certifications</h2>
+      <ul class="list">
+        <li>HubSpot & Shopify certifications (2022)</li>
+        <li>Salesforce Marketing certification (2020)</li>
+        <li>Prince2 certification (2015)</li>
+        <li>BA in Social Psychology, University of Social Sciences and Humanities (2015)</li>
+      </ul>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="section" id="achievements">
+      <h2>Achievements</h2>
+      <ul class="list">
+        <li>Acquired financing for Machine Learning project (2019)</li>
+        <li>Y‑Combinator 2018 (Startup School)</li>
+        <li>INNOVATION 2017 (Silver)</li>
+        <li>KTR 2016 (3× Bronze)</li>
+        <li>MIXX AWARDS 2016 (Silver)</li>
+        <li>Kreatura 2015 (Bronze)</li>
+      </ul>
+    </section>
+
+    <!-- VENTURES -->
+    <section class="section" id="ventures">
+      <h2>Ventures</h2>
+      <ul class="list">
+        <li>Voice acting (2017)</li>
+        <li>Line cook (2014)</li>
+        <li>Crowdsourcing startup founder (2008)</li>
+        <li>E‑commerce shop (2005)</li>
+      </ul>
+    </section>
+
+    <!-- LANGUAGES -->
+    <section class="section" id="languages">
+      <h2>Languages</h2>
+      <ul class="list">
+        <li>English: Bilingual proficiency</li>
+        <li>French: Limited working proficiency</li>
+        <li>German: Elementary proficiency</li>
+      </ul>
+    </section>
+
+    <!-- INTERESTS -->
+    <section class="section" id="interests">
+      <h2>Interests</h2>
+      <p>Cooking, strategy games, skiing, sailing, history, new technologies (GenAI), fantasy & sci‑fi literature, “how it’s made”.</p>
+    </section>
+
+  </div>
+</body>
+</html>
+```
